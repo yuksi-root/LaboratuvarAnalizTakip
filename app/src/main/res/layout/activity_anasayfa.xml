@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".UI.Anasayfa">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_weight="0"
+        android:text="XXXX Tıbbi Tanı ve Arastırma Laboratuvarı"
+        android:textAlignment="center" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/giris">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="XXXX FİRMASI"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/testGiris"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:onClick="testGiris"
+            android:text="Yeni Hasta Kayıt" />
+
+        <Button
+            android:id="@+id/hasta_arama"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:onClick="hasta_arama"
+            android:text="Kayıt Arama" />
+
+        <Button
+            android:id="@+id/SkTestlerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:onClick="kullanici_table"
+            android:text="Kullanicilar" />
+        <Button
+            android:id="@+id/kEkle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:onClick="kEkle_y"
+            android:text="Kullanıcı Ekle"
+            ></Button>
+        <Button
+            android:id="@+id/bs_ekr"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:onClick="bs_ekran"
+            android:text="Beklenen Sonuc Listesi">
+
+        </Button>
+
+            android:id="@+id/exitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:onClick="exit_y"
+            android:text="Çıkış" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

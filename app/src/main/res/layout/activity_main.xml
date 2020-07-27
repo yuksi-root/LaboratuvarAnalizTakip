@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="HOSGELDİNİZ"
+        android:layout_marginTop="5dp"
+        android:textSize="26sp"
+        android:textColor="#ffff00"
+        android:background="@android:color/holo_blue_dark"
+        android:textAlignment="center"
+        android:gravity="center">
+
+    </TextView>
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/giris">
+
+    </ImageView>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:onClick="go"
+        android:text="giris" />
+
+    <Button
+        android:id="@+id/hasta_sonuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="HASTA SONUC"
+        android:onClick="hasta_sonuc"/>
+
+
+
+</LinearLayout>

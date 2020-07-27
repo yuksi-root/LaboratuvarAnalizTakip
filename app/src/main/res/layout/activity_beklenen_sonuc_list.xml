@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.BeklenenSonuclarList"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="SONUC BEKLEYEN TESTLER"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_orange_light">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/geriBs"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:text="Geri"
+                android:onClick="geri_bs"
+                android:layout_marginStart="2dp"
+                android:textAllCaps="false"
+                >
+
+            </Button>
+
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="-10dp"
+                android:text="Sıralama Türü">
+
+            </TextView>
+            <Spinner
+                android:id="@+id/sira_spin_bs"
+                android:layout_width="120dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="22dp"
+                android:textSize="2dp"
+                android:layout_marginStart="-120dp"
+                android:spinnerMode="dropdown"
+                >
+
+            </Spinner>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginStart="5dp"
+                android:gravity="center|top|bottom|left|right"
+                android:textAlignment="center"
+                android:text="Durum"
+                >
+
+            </TextView>
+            <Spinner
+                android:id="@+id/durum_spin_bs"
+                android:layout_width="120dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="22dp"
+                android:textSize="2dp"
+                android:spinnerMode="dropdown"
+                android:layout_marginStart="-120dp"
+                >
+
+            </Spinner>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:weightSum="3"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/id_txt_listb"
+            android:layout_width="35dp"
+            android:layout_marginStart="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="id"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@android:color/holo_orange_light">
+        </TextView>
+        <TextView
+            android:id="@+id/tarih_txt_listb"
+            android:layout_width="70dp"
+            android:layout_marginStart="2dp"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Tarih"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@android:color/holo_orange_light">
+        </TextView>
+        <TextView
+            android:id="@+id/testAd_txt_listb"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_marginStart="2dp"
+            android:text="Test Adi"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@android:color/holo_orange_light">
+        </TextView>
+        <TextView
+            android:id="@+id/hasta_txt_listb"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_marginStart="2dp"
+            android:text="Hasta Adı"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@android:color/holo_orange_light">
+        </TextView>
+        <TextView
+            android:id="@+id/durum_txt_listb"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_marginStart="2dp"
+            android:text="Durum"
+            android:textAlignment="center"
+            android:gravity="center|top|bottom|left|right"
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@android:color/holo_orange_light">
+        </TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="0sp">
+        <ListView
+            android:id="@+id/bS_List"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</LinearLayout>

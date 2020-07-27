@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.HastaSonucOlusturma"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="HASTA SONUÇ BİLGİSİ GİRME"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18dp"
+        android:background="@android:color/holo_orange_light">
+
+    </TextView>
+    <ImageView
+        android:id="@+id/sonucImage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/giris" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/texiew"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:text="Hasta Adı: "
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/hAd_txt_hso"
+                android:layout_width="83dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:text="Soyadı:"
+                android:textSize="12dp"
+                android:layout_marginStart="-120dp"
+                android:layout_marginTop="66dp"
+                />
+
+            <TextView
+                android:id="@+id/hSad_txt_hso"
+                android:layout_width="78dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="66dp"
+                android:textSize="12dp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="92dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewz"
+                android:layout_width="47dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Yas  : "
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/yas_txt_hso"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:textSize="14dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textVie"
+                android:layout_width="50dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="-74dp"
+                android:layout_marginTop="66dp"
+                android:text="Cinsiyet : "
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/cinsiyet_txt_hso"
+                android:layout_width="36dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="65dp"
+                android:textSize="14dp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+            android:id="@+id/textView"
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:text="TcNo:"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            />
+
+            <TextView
+                android:id="@+id/tcN_txt_hso"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="9dp"
+                android:textSize="12dp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/ttView3"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:text="TakipNo: "
+                android:textSize="12dp"
+                android:layout_marginStart="-139dp"
+                android:layout_marginTop="66dp"
+                />
+
+            <TextView
+                android:id="@+id/tkN_txt_hso"
+                android:layout_width="90dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="65dp"
+                android:textSize="12dp">
+
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:text="TestAdi"
+
+        ></TextView>
+    <EditText
+        android:id="@+id/EtestAdz"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        ></EditText>
+    <TextView
+        android:layout_width="45dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Sonuç"
+
+        ></TextView>
+    <EditText
+        android:id="@+id/sonucEdit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        ></EditText>
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="20dp"
+        android:text="Birim"
+        android:layout_marginTop="5dp"
+        ></TextView>
+    <EditText
+        android:id="@+id/birimEdit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        ></EditText>
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="37dp"
+        android:text="Referans Aralığı"
+        android:layout_marginTop="5dp"
+        ></TextView>
+    <EditText
+        android:id="@+id/refEdit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        ></EditText>
+    <Button
+        android:id="@+id/BtnKaydet"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Kaydet"
+        android:onClick="saveBtn"
+        android:textAllCaps="false"
+        ></Button>
+
+</LinearLayout>

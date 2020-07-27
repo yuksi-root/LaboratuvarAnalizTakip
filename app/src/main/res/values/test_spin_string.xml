@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">LaboratuvarAnalizTakip</string>
+    <string-array name="tumTestler">
+        <item>ALP (Alkalen Fostataz)</item>
+        <item>Amip Antijeni(Entamoeba histografisi)</item>
+        <item>Alüminyum</item>
+        <item>P AKCİĞER LOBEKTOMİ</item>
+    </string-array>
+
+    <string-array name="TariheGore">
+        <item>Tarihe Göre</item>
+        <item>Yeniden Eskiye</item>
+        <item>Eskiden Yeniye</item>
+    </string-array>
+
+    <string-array name="Durum">
+        <item>Bütün Durumlar</item>
+        <item>Hazır</item>
+        <item>Bekleniyor</item>
+    </string-array>
+    <string-array name="Yetki">
+        <item>Yetki Seçiniz</item>
+        <item>Yönetici</item>
+        <item>Kullanici</item>
+    </string-array>
+</resources>

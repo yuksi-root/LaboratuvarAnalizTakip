@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/idz_txt_ctg"
+            android:layout_width="18dp"
+            android:layout_height="35dp"
+            android:textSize="12dp"
+            android:text="id"
+
+            android:textAlignment="center"
+            android:gravity="center">
+
+        </TextView>
+        <TextView
+            android:id="@+id/tAdz_txt_ctg"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:textSize="12dp"
+            android:text="Test Adı"
+            android:layout_marginStart="2dp"
+
+            android:textAlignment="center"
+            android:gravity="center">
+
+        </TextView>
+        <TextView
+            android:id="@+id/cGun_ctg"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:textSize="12dp"
+            android:text="Ç.Gün"
+
+            android:textAlignment="center"
+            android:gravity="center"></TextView>
+        <TextView
+            android:id="@+id/cSure_txt_ctg"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:textSize="12dp"
+            android:text="Ç.Süre"
+
+            android:textAlignment="center"
+            android:gravity="center"></TextView>
+        <TextView
+            android:id="@+id/aciklama_txt_ctg"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:textSize="12dp"
+            android:text="Açıklama"
+
+            android:textAlignment="center"
+            android:gravity="center"></TextView>
+    </LinearLayout>
+</LinearLayout>

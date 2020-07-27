@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/list_id_txt"
+            android:layout_width="18dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="id"
+            android:textAlignment="center"
+            android:textSize="12dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/list_ad_txt"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="2dp"
+            android:gravity="center"
+            android:text="Test Adı"
+            android:textAlignment="center"
+            android:textSize="12dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/list_sonuc_txt"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Sonuç"
+            android:textAlignment="center"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/list_birim_txt"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Birim"
+            android:textAlignment="center"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/list_ref_txt"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Referans Aralığı"
+            android:textAlignment="center"
+
+            android:textSize="12dp" />
+    </LinearLayout>
+</LinearLayout>

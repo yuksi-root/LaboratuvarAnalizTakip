@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.SkTestler"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="SIK KULLANILAN TESTLER"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18dp"
+        android:layout_marginBottom="3dp"
+        android:background="@android:color/holo_orange_light">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginStart="10dp"
+            android:textAllCaps="false"
+            android:text="Geri">
+        </Button>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:textAllCaps="false"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="-40dp"
+            android:text="Kaydet">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="ACA-Cardiolipin Antikoru, Ig0"
+            >
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="2dp"
+            android:text="ACA-Cardiolipin Antikoru, Ig0"
+            >
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="2dp"
+            android:text="ACA-Cardiolipin Antikoru, Ig0"
+            >
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="2dp"
+            android:text="ACA-Cardiolipin Antikoru, Ig0"
+            >
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="2dp"
+            android:text="ACA-Cardiolipin Antikoru, Ig0"
+            >
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="2dp"
+            android:text="ACA-Cardiolipin Antikoru, Ig0"
+            >
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="2dp"
+            android:text="ACA-Cardiolipin Antikoru, Ig0"
+            >
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="ACA-Cardiolipin Antikoru, Ig0"
+            >
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="2dp"
+            android:text="ACA-Cardiolipin Antikoru, Ig0"
+            >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="2dp"
+            android:text="ACA-Cardiolipin Antikoru, Ig0"
+            >
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="2dp"
+            android:text="ACA-Cardiolipin Antikoru, Ig0"
+            >
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/checkBox12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="2dp"
+            android:text="ACA-Cardiolipin Antikoru, Ig0"
+            >
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/checkBox13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="2dp"
+            android:text="ACA-Cardiolipin Antikoru, Ig0"
+            >
+        </CheckBox> <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginTop="2dp"
+        android:text="ACA-Cardiolipin Antikoru, Ig0"
+        >
+    </CheckBox> <CheckBox
+        android:id="@+id/checkBox15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginTop="2dp"
+        android:text="ACA-Cardiolipin Antikoru, Ig20"
+        >
+    </CheckBox>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

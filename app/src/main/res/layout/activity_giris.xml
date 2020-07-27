@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".UI.Giris">
+
+    <TextView
+        android:id="@+id/girisText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="0dp"
+        android:textAlignment="center"
+        android:text="HOŞGELDİNİZ"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+    <ImageView
+        android:id="@+id/girisImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/giris" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/firmaKoduEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Firma Kodunuzu Giriniz: "
+            android:imeOptions="actionNext"
+            android:padding="12sp"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/kullaniciAdiEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="Kullanıcı Adınızı Giriniz: "
+            android:imeOptions="actionNext"
+            android:padding="12sp"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/sifreEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="Şifrenizi Giriniz: "
+            android:imeOptions="actionNext"
+            android:padding="12sp"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+        <Spinner
+            android:id="@+id/yetkiSpinner_ge"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:spinnerMode="dropdown"
+            >
+        </Spinner>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/girisBtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:padding="12sp"
+        android:background="#1028AD"
+        android:text="Giriş"
+        android:onClick="btnGiris"/>
+
+    <Button
+        android:id="@+id/rgBtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="btnRg"
+        android:padding="12sp"
+        android:background="@color/colorAccent"
+        android:text="Kayıt"
+        ></Button>
+
+
+</LinearLayout>

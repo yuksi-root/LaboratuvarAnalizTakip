@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:conhint=".test_giris_ekran"
+    tools:ignore="HardcodedText">
+
+    <Button
+        android:id="@+id/geriBtn"
+        android:layout_width="109sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="0sp"
+        android:text="Geri"
+        android:onClick="geri"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="109sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="0sp"
+        android:text="Temizle"
+        android:onClick="clear"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="130sp"
+        android:layout_height="66sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="0sp"
+        android:text="Sık Kulanılan Testler"
+        android:textAllCaps="false" />
+
+
+    <LinearLayout
+        android:layout_width="200sp"
+        android:layout_height="250sp"
+        android:layout_marginStart="-368sp"
+        android:layout_marginTop="80sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/adText"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginStart="3sp"
+            android:layout_marginTop="13sp"
+            android:gravity="center"
+            android:text="Ad"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="42sp"
+            android:layout_height="20sp"
+            android:layout_marginStart="-20sp"
+            android:layout_marginTop="65sp"
+            android:gravity="center"
+            android:text="Soyad"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="32sp"
+            android:layout_height="20sp"
+            android:layout_marginStart="-42sp"
+            android:layout_marginTop="108sp"
+            android:gravity="center"
+            android:text="Yaş"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="57sp"
+            android:layout_height="20sp"
+            android:layout_marginStart="-36sp"
+            android:layout_marginTop="140sp"
+            android:gravity="center"
+            android:hint="Cinsiyet"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/hastaAdEdit"
+            android:layout_width="130sp"
+            android:layout_height="45sp"
+            android:layout_marginStart="5sp"
+            android:layout_marginTop="3sp"
+            android:hint="Ad"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/hastaSoyadEdit"
+            android:layout_width="130sp"
+            android:layout_height="45sp"
+            android:layout_marginStart="-131sp"
+            android:layout_marginTop="55sp"
+            android:hint="Soyad"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/yasEdit"
+            android:layout_width="63sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="-130sp"
+            android:layout_marginTop="100sp"
+            android:hint="192"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/erkekRb"
+            style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="-64sp"
+            android:layout_marginTop="137sp" />
+
+        <TextView
+            android:layout_width="35sp"
+            android:layout_height="22sp"
+            android:layout_marginStart="2sp"
+            android:layout_marginTop="139sp"
+            android:padding="2dp"
+            android:text="Erkek"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/kadinRb"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="2sp"
+            android:layout_marginTop="137sp" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="20sp"
+            android:layout_marginStart="2sp"
+            android:layout_marginTop="143sp"
+            android:padding="2dp"
+            android:text="Kadın" />
+
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="34sp"
+            android:layout_marginStart="-200sp"
+            android:layout_marginTop="200sp"
+            android:text="Çalışma Günleri" />
+
+        <EditText
+            android:id="@+id/cGunEdit"
+            android:layout_width="match_parent"
+            android:layout_height="34sp"
+            android:layout_marginStart="5sp"
+            android:layout_marginTop="208sp"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textSize="13sp"
+            tools:ignore="HardcodedText,LabelFor" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="170sp"
+        android:layout_height="250sp"
+        android:layout_marginStart="0sp"
+        android:layout_marginTop="80sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="1sp"
+            android:layout_marginTop="-12sp"
+            android:text="TakipNo" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="20sp"
+            android:layout_marginStart="-41sp"
+            android:layout_marginTop="40sp"
+            android:text="TcNo" />
+
+
+        <EditText
+            android:id="@+id/takipNoEdit"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginStart="5sp"
+            android:layout_marginTop="-1sp"
+            android:hint="T1231"
+            android:inputType="text"
+            android:importantForAutofill="no"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/tcNoEdit"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginStart="-125sp"
+            android:layout_marginTop="42sp"
+            android:hint="12345678912"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="20sp"
+            android:layout_marginStart="-169sp"
+            android:layout_marginTop="62sp"
+            android:text="Notlar"
+            android:textSize="13sp" />
+
+
+        <EditText
+            android:id="@+id/notEdit"
+            android:layout_width="125sp"
+            android:layout_height="110sp"
+            android:layout_marginStart="-40sp"
+            android:layout_marginTop="100sp"
+            android:gravity="start|top"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="34sp"
+            android:layout_marginStart="-125sp"
+            android:layout_marginTop="200sp"
+            android:text="Çalışma Süresi" />
+
+        <EditText
+            android:id="@+id/cSureEdit"
+            android:layout_width="match_parent"
+            android:layout_height="34sp"
+            android:layout_marginStart="5sp"
+            android:layout_marginTop="208sp"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textSize="13sp"
+            tools:ignore="HardcodedText,LabelFor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140sp"
+        android:layout_marginStart="-370sp"
+        android:layout_marginTop="345sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="35sp"
+            android:gravity="center"
+            android:layout_marginStart="0dp"
+            android:text="Uygulanacak Test"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/tumTestspin"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="5sp"
+            android:spinnerMode="dropdown" />
+
+        <Button
+            android:id="@+id/kaydetBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:text="Kaydet"
+            android:onClick="saveBtn"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+
+</LinearLayout>
